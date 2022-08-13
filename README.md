@@ -2,7 +2,7 @@
 
 ## Steps:
 
-### Basic Packages:
+### Basic packages:
 
 -   Install basic eslint packages. `npm i -D eslint@latest eslint-plugin-react@latest`.
 -   Install prettier packages. `npm i -D prettier eslint-config-prettier eslint-plugin-prettier`.
