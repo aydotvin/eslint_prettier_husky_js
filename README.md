@@ -79,7 +79,7 @@
 ### Husky setup:
 -	`npm i -D husky-init`
 -	`npx husky-init && npm install` - this will setup the husky scripts in its folder.
--	`npx husky add/set .husky/pre-commit "npm run lint"`
+-	`npx husky add|set .husky/pre-commit "npm run lint"`
 	-   `add` will add to existing list of commands to be run before the commit.
 	-   `set` will override the existing list and only uses the newly passed command.
 	-   Commands can be directly added in the "pre-commit" file in the .husky folder.
