@@ -9,6 +9,13 @@
 -   Create `.eslintrc.json` file in root folder and add the eslint config.
 -   Create `.prettierrc` file in root folder and add the prettier config.
 
+### Scripts:
+```
+"lint": "eslint \"src/**/*.{js,jsx}\"",
+"lint:fix": "eslint --fix \"src/**/*.{js,jsx}\"",
+```
+`"lint": "eslint .",` to lint the entire project
+
 ### Config files:
 
 -   `.eslintrc.json` config file data:
@@ -68,3 +75,8 @@
 	"endOfLine": "auto"
 }
 ```
+
+### References
+-	[ESLint rules](https://eslint.org/docs/latest/rules/)
+-	[JSX ESLint rules](https://github.com/jsx-eslint/eslint-plugin-react/tree/master/docs/rules)
+-	[Youtube tutorial](https://www.youtube.com/watch?v=ZXW6Jn6or1w)
