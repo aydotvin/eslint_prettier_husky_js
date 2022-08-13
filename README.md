@@ -76,7 +76,7 @@
 }
 ```
 
-### Husky setup
+### Husky setup:
 -	`npm i -D husky-init`
 -	`npx husky-init && npm install` - this will setup the husky scripts in its folder.
 -	`npx husky add/set .husky/pre-commit "npm run lint"`
