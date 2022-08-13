@@ -76,6 +76,15 @@
 }
 ```
 
+### Husky setup
+-	`npm i -D husky-init`
+-	`npx husky-init && npm install` - this will setup the husky scripts in its folder.
+-	`npx husky add/set .husky/pre-commit "npm run lint"`
+	-   `add` will add to existing list of commands to be run before the commit.
+	-   `set` will override the existing list and only uses the newly passed command.
+	-   Commands can be directly added in the "pre-commit" file in the .husky folder.
+	-	The git hooks such as `pre-commit` can be found in .git/hooks/ folder of the git project.
+
 ### References
 -	[ESLint rules](https://eslint.org/docs/latest/rules/)
 -	[JSX ESLint rules](https://github.com/jsx-eslint/eslint-plugin-react/tree/master/docs/rules)
