@@ -88,4 +88,5 @@
 ### References
 -	[ESLint rules](https://eslint.org/docs/latest/rules/)
 -	[JSX ESLint rules](https://github.com/jsx-eslint/eslint-plugin-react/tree/master/docs/rules)
--	[Youtube tutorial](https://www.youtube.com/watch?v=ZXW6Jn6or1w)
+-	[Youtube tutorial 1](https://www.youtube.com/watch?v=ZXW6Jn6or1w)
+-	[Youtube tutorial 2](https://www.youtube.com/watch?v=jNxDNoYEGVU)
